@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+
+
+
+<link rel="stylesheet" href="/petshop.css">
+
+
+  
+
+
+</head>
+
+<body>
+    <!-- navbar top  starts -->
+    <div class="container-fluid d-none d-lg-block border-bottom">
+        <div class="row">
+            <div class="col text-center mt-2 mb-1">
+                <div class="d-inline-flex align-items-center">
+                    <i class="icon fa-sharp fa-solid fa-map-location me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Our Office</h6>
+                        <span>123 Street, New York, USA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center border-start border-end mt-2 mb-1">
+                <div class="d-inline-flex align-items-center">
+                    <i class="icon fa-regular fa-envelope-open me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Email Us</h6>
+                        <span>info@example.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center mt-2 mb-1">
+                <div class="d-inline-flex align-items-center">
+                    <i class="icon fa-brands fa-google me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Call Us</h6>
+                        <span>+012 345 6789</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar top End -->
+
+    <!-- main navbar starts -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand ms-5 text-uppercase fs-1 fw-bolder" href="#"><i
+                class="icon fa-solid fa-shop me-2"></i>Pet Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item fs-5 fw-bold">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item fs-5 fw-bold">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item fs-5 fw-bold">
+                    <a class="nav-link" href="#Services">Service</a>
+                </li>
+                <li class="nav-item fs-5 fw-bold">
+                    <a class="nav-link" href="#Products">Product</a>
+                </li>
+                <li class="nav-item dropdown fs-5 fw-bold">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu fs-5 fw-bold" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a href="#" class="nav-item nav-link nav-contact text-white px-5 ms-lg-5">Contact <i
+                    class="fa-regular fa-arrow-right"></i></a>
+        </div>
+    </nav>
+    <!-- main navbar ends -->
+
+
+
+    <!-- first content starts -->
+    <div class="container-fluid first-content bg-primary py-5 mb-5">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="display-1 text-uppercase fw-bold mb-lg-4">Pet Shop</h1>
+                    <h1 class="text-uppercase text-white mb-lg-4">Make Your Pets Happy</h1>
+                    <p class="fs-4 text-white mb-lg-4">Dolore tempor clita lorem rebum kasd eirmod dolore diam eos kasd.
+                        Kasd clita ea justo est sed kasd erat clita sea</p>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- first content ends -->
+
+    <!-- about part starts -->
+    <div class="container-fluid" id="About">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-5 mb-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="/images/about.jpg"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="border-start border-success border-5 ps-3 mb-4">
+                        <h6 class="text text-uppercase abt fw-bold">About Us</h6>
+                        <h1 class="display-5 text-uppercase fw-bolder">We Keep Your Pets Happy All Time</h1>
+                    </div>
+                    <h4 class="mb-4" style="color: rgb(79, 79, 79);">Diam dolor diam ipsum tempor sit. Clita erat ipsum
+                        et lorem stet no labore lorem
+                        sit clita duo justo magna dolore</h4>
+                    <div class="bg-light p-4">
+                        <ul class="nav nav-pills justify-content-between mb-3">
+                            <li class="nav-item w-50">
+                                <button class="btn1 nav-link text-uppercase w-100 active">Our Mission</button>
+                            </li>
+                            <li class="nav-item w-50">
+                                <button class="btn2 nav-link text-uppercase w-100">Our Vission</button>
+                            </li>
+                        </ul>
+                        <div class="content">
+                            <p class="content-text" style="color: rgb(79, 79, 79);">Tempor erat elitr at rebum at at
+                                clita aliquyam consetetur. Diam
+                                dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos
+                                sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit.
+                                Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata
+                                consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about part ends -->
+
+    <!-- service part starts  -->
+    <div class="container-fluid py-5" id="Services">
+        <div class="container">
+            <div class="border-start border-5  border-success ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase service fw-bold">Services</h6>
+                <h1 class="display-5 text-uppercase mb-0 fw-bold">Our Excellent Pet Care Services</h1>
+            </div>
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="me-4 img" src="/images/pet-house.png" alt="" height="100px">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Pet Boarding</h5>
+                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                            <a style="text-decoration: none; font-size: large; color: #7AB730;" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="me-4 img" src="/images/pet-food.png" alt="" height="100px">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Pet Feeding</h5>
+                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                            <a style="text-decoration: none; font-size: large; color: #7AB730;" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="me-4 img" src="/images/beauty-saloon.png" alt="" height="100px">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Pet Grooming</h5>
+                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                            <a style="text-decoration: none; font-size: large; color: #7AB730;" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="me-4 img" src="/images/dog-training.png" alt="" height="100px">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Pet Training</h5>
+                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                            <a style="text-decoration: none; font-size: large; color: #7AB730;" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="me-4 img" src="/images/jogging.png" alt="" height="100px">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Pet Exercise</h5>
+                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                            <a style="text-decoration: none; font-size: large; color: #7AB730;" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="me-4 img" src="/images/dog.png" alt="" height="100px">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Pet Treatment</h5>
+                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                            <a style="text-decoration: none; font-size: large; color: #7AB730;" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service part ends -->
+
+    <!-- carousel part start  -->
+    <div class="container-fluid py-5" id="Products">
+        <div class="container">
+            <div class="border-start border-5 border-success  ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase Products fw-bold">Products</h6>
+                <h1 class="display-5 text-uppercase mb-0 fw-bold">Products For your best friends</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem; margin-top: 2rem;">
+                        <img src="/images/product-1.png" class="card-img-top mt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold fs-6">QUALITY PET FOODS</h5>
+                            <p style="color: #7AB730; text-align: center;" class="fw-bold fs-4">$199.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem; margin-top: 2rem ">
+                        <img src="/images/product-2.png" class="card-img-top mt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold fs-6">QUALITY PET FOODS</h5>
+                            <p style="color: #7AB730; text-align: center;" class="fw-bold fs-4">$199.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem; margin-top: 2rem">
+                        <img src="/images/product-3.png" class="card-img-top mt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold fs-6">QUALITY PET FOODS</h5>
+                            <p style="color: #7AB730; text-align: center;" class="fw-bold fs-4">$199.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem; margin-top: 2rem">
+                        <img src="/images/product-4.png" class="card-img-top mt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold fs-6">QUALITY PET FOODS</h5>
+                            <p style="color: #7AB730; text-align: center;" class="fw-bold fs-4">$199.00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- carousel part ends  -->
+
+
+        <!-- offer parts start  -->
+        <div class="container-fluid bg-offer mt-5 py-5">
+            <div class="container py-5">
+                <div class="row justify-content-start">
+                    <div class="col-lg-7">
+                        <div class="border-start border-5 border-dark ps-5 mb-5">
+                            <h6 class="text-dark text-uppercase fw-bold ">Special Offer</h6>
+                            <h1 class="display-5 text-uppercase text-white mb-0 fw-bold">Save 50% on all items your
+                                first order</h1>
+                        </div>
+                        <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore
+                            et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et.
+                            Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
+                        <a href="" class="btn btn-light py-md-3 px-md-5 me-3 fw-bolder">Shop Now</a>
+                        <a href="" class="btn btn-outline-light py-md-3 px-md-5 fw-bolder">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- offer parts ends  -->
+
+
+        <!-- price plan starts  -->
+
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="border-start border-5 border-success ps-5 mb-5" style="max-width: 600px;">
+                    <h6 class="text-primary Price text-uppercase">Pricing Plan</h6>
+                    <h1 class="display-5 text-uppercase mb-0">Competitive Pricing For Pet Services</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <div class="bg-light text-center pt-5 mt-lg-5">
+                            <h2 class="text-uppercase">Basic</h2>
+                            <h6 class="text-body mb-5">The Best Choice</h6>
+                            <div class="text-center bg-primary p-4 amount mb-2">
+                                <h1 class="display-4 text-white mb-0">
+                                    <small class="align-top"
+                                        style="font-size: 22px; line-height: 45px;">$</small>49<small
+                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                                        Mo</small>
+                                </h1>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>HTML5 & CSS3</span>
+                                    <i class="bi bi-check2 fs-4 text-primary icon"></i>
+
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Bootstrap v5</span>
+                                    <i class="bi bi-check2 fs-4 text-primary icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Responsive Layout</span>
+                                    <i class="bi bi-x fs-4 text-danger"></i>
+
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Browsers Compatibility</span>
+                                    <i class="bi bi-x fs-4 text-danger"></i>
+
+
+                                </div>
+                                <a href="" class="btn order text-uppercase py-2 px-4 my-3">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="bg-light text-center pt-5">
+                            <h2 class="text-uppercase">Standard</h2>
+                            <h6 class="text-body mb-5">The Best Choice</h6>
+                            <div class="text-center bg-dark p-4 mb-2">
+                                <h1 class="display-4 text-white mb-0">
+                                    <small class="align-top"
+                                        style="font-size: 22px; line-height: 45px;">$</small>99<small
+                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                                        Mo</small>
+                                </h1>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>HTML5 & CSS3</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Bootstrap v5</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Responsive Layout</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Browsers Compatibility</span>
+                                    <i class="bi bi-x fs-4 text-danger"></i>
+                                </div>
+                                <a href="" class="btn order text-uppercase py-2 px-4 my-3">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="bg-light text-center pt-5 mt-lg-5">
+                            <h2 class="text-uppercase">Extended</h2>
+                            <h6 class="text-body mb-5">The Best Choice</h6>
+                            <div class="text-center bg-primary amount p-4 mb-2">
+                                <h1 class="display-4 text-white mb-0">
+                                    <small class="align-top"
+                                        style="font-size: 22px; line-height: 45px;">$</small>149<small
+                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                                        Mo</small>
+                                </h1>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>HTML5 & CSS3</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Bootstrap v5</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Responsive Layout</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <span>Browsers Compatibility</span>
+                                    <i class="bi bi-check2 fs-4 icon"></i>
+                                </div>
+                                <a href="" class="btn  text-uppercase py-2 px-4 my-3 order">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- price plan ends -->
+
+
+
+    <!-- team members part starts -->
+    <div class="container-fluid py-5">
+
+
+        <div class="container">
+            <div class="border-start border-5 border-success ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary Price text-uppercase">Team Members</h6>
+                <h1 class="display-5 text-uppercase mb-0">Qualified pets care profesional</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem; margin-top: 2rem">
+                        <img class="card-img-top img-fluid" src="/images/team-1.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h5 class="card-title text-center text-uppercase mt-4">Full Name</h5>
+                            <p class="card-text text-center text-uppercase mt-2 mb-3">Designation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem; margin-top: 2rem">
+                        <img class="card-img-top img-fluid" src="/images/team-2.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title text-center text-uppercase mt-4">full name</h4>
+                            <p class="card-text text-center text-uppercase mt-2 mb-3">Designation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem; margin-top: 2rem">
+                        <img class="card-img-top img-fluid" src="/images/team-3.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title card-title text-center text-uppercase mt-4">full name</h4>
+                            <p class="card-text card-text text-center text-uppercase mt-2 mb-3">Designation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem; margin-top: 2rem">
+                        <img class="card-img-top img-fluid" src="/images/team-5.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title card-title card-title text-center text-uppercase mt-4">Full name</h4>
+                            <p class="card-text text-center text-uppercase mt-2 mb-3">Designation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- team members part ends -->
+
+
+
+    <!-- Testimonial Start -->
+
+    <div class="container-fluid bg-testimonial py-5" style="margin: 45px 0;">
+        <div class="container py-5">
+            <div class="row justify-content-end">
+                <div class="col-lg-7">
+                    <div id="carouselExampleControls" class="carousel slide bg-white p-2" data-bs-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active position-relative mb-4">
+                                <img src="/images/testimonial-1.jpg" class="img-fluid mx-auto mb-4 " alt="...">
+                                <p>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem
+                                    ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat
+                                    dolor rebum sit ipsum.</p>
+                                <hr class="w-25 mx-auto">
+                                <h5 class="text-uppercase text-center">Client Name</h5>
+                                <h6 class="text-center">Profession</h6>
+
+                            </div>
+                            <div class="carousel-item position-relative mb-4">
+                                <img src="/images/testimonial-2.jpg" class="img-fluid mx-auto mb-4 " alt="...">
+                                <p>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem
+                                    ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat
+                                    dolor rebum sit ipsum.</p>
+                                <hr class="w-25 mx-auto">
+                                <h5 class="text-uppercase text-center">Client Name</h5>
+                                <h6 class="text-center">Profession</h6>
+
+
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden" >Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial End -->
+
+
+
+
+    <!-- Latest Blog Starts  -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-success ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase Products fw-bold">Latest Blog</h6>
+                <h1 class="display-5 text-uppercase mb-0 fw-bold">LATEST ARTICLES FROM OUR BLOG POST</h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3 " style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/images/blog-1.jpg" class="img-fluid h-100" alt="..."
+                                        style="object-fit: cover;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-secondary mt-3"><i
+                                                class="fa-regular fa-bookmark me-2"></i>Web Design <span><i
+                                                    class="fa-regular fa-calendar ms-2 me-2"></i>01 Jan,2045</span>
+                                            <h6>
+
+                                                <p class="card-text text-uppercase mt-3 fs-4 text-dark">Dolor sit magna
+                                                    rebum clita rebum dolor</p>
+                                                <p class="card-text fs-5 text-secondary">Ipsum sed lorem amet dolor amet
+                                                    duo ipsum amet et dolore est tempor eos dolor</p>
+                                                <a href="" style="text-decoration: none; color: #7AB730;">Read More<i
+                                                        class="fa-regular fa-arrow-right-long ms-3"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/images/blog-2.jpg" class="img-fluid h-100 " alt="..."
+                                        style="object-fit: cover; ">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-secondary mt-3"><i
+                                                class="fa-regular fa-bookmark me-2"></i>Web Design <span><i
+                                                    class="fa-regular fa-calendar ms-2 me-2"></i>01 Jan,2045</span>
+                                            <h6>
+
+                                                <p class="card-text text-uppercase mt-3 fs-4 text-dark">Dolor sit magna
+                                                    rebum clita rebum dolor</p>
+                                                <p class="card-text fs-5 text-secondary">Ipsum sed lorem amet dolor amet
+                                                    duo ipsum amet et dolore est tempor eos dolor</p>
+                                                <a href="" style="text-decoration: none; color: #7AB730;">Read More<i
+                                                        class="fa-regular fa-arrow-right-long ms-3"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Latest Blog ends  -->
+
+
+        <!-- Footer Part Starts  -->
+
+        <footer class="bg-light text-center text-lg-start mt-5">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                        <!-- <h5 class="text-uppercase">Get in Touch</h5> -->
+                        <div class="border-start border-success border-5 ps-3">
+                            <h6 class="text-dark text-uppercase  fw-bolder m-0">GEt in touch</h6>
+                        </div>
+                        <p class="mt-3 fs-6 text-secondary">No Dolore ipsum accusam no lorem, invidunt sed clita kasd
+                            clita et et dolor sed dolor</p>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" style="text-decoration: none; color: grey;"><i
+                                        class="me-2 fa-sharp text-success fa-solid fa-map"></i>123 Street, New York,USA</a>
+                            </li>
+                            <li>
+                                <a href="#!" style="text-decoration: none; color: grey;"><i
+                                        class="mt-3 fa-regular text-success fa-envelope-open me-3"></i>info@example.com</a>
+                            </li>
+                            <li>
+                                <a href="#!" style="text-decoration: none; color: grey;"><i
+                                        class="mt-3 me-3 text-success fa-regular fa-phone"></i>+012 345 67890</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="border-start border-success border-5 ps-3">
+                            <h6 class="text-dark text-uppercase  fw-bolder m-0">Quick Links</h6>
+                        </div>
+
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <h6 class="mt-3 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i> Home</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 2</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>About Us</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 3</a> -->
+                                <h6 class="mt-2 pb-1  text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Our Services
+                                </h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Meet The Team
+                                </h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Latest</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Blog</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Contact Us</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="border-start border-success border-5 ps-3">
+                            <h6 class="text-dark text-uppercase  fw-bolder m-0">Popular Links</h6>
+                        </div>
+
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <h6 class="mt-3 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i> Home</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 2</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>About Us</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 3</a> -->
+                                <h6 class="mt-2 pb-1  text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Our Services
+                                </h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Meet The Team
+                                </h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Latest</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 pb-1 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Blog</h6>
+                            </li>
+                            <li>
+                                <!-- <a href="#!" class="text-dark">Link 4</a> -->
+                                <h6 class="mt-2 text-secondary"><i class="fa-solid text-success fa-bars me-1"></i>Contact Us</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="border-start border-success border-5 ps-3 border-success">
+                            <h6 class="text-dark text-uppercase  fw-bolder m-0">Newsletter</h6>
+                        </div>
+
+
+                        <form action="">
+                            <div class="input-group mt-8 p-3">
+                                <input type="text" class="form-control p-3" placeholder="Your Email">
+                                <button class="btn btn-secondary bg-success">Sign Up</button>
+
+                                <div>
+                                    <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
+                                    <div class="d-flex ">
+                                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i
+                                                class="bi bi-twitter"></i></a>
+                                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i
+                                                class="bi bi-facebook"></i></a>
+                                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i
+                                                class="bi bi-linkedin"></i></a>
+                                        <a class="btn btn-outline-primary btn-square" href="#"><i
+                                                class="bi bi-instagram"></i></a>
+                                    </div>
+
+                                </div>
+                        </form>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+            <div class="container">
+                <div class="col-12 text-center mt-3 mb-3">
+                    <a style="text-decoration: none;color: grey; " href="">Terms & Conditions</a>
+                    <span class="mx-1">|</span>
+                    <a style="text-decoration: none; color: grey;" href="">Privacy Policy</a>
+                    <span class="mx-1">|</span>
+                    <a style="text-decoration: none; color: grey;" href="">Customer Support</a>
+                    <span class="mx-1">|</span>
+                    <a style="text-decoration: none; color: grey;" href="">Payments</a>
+                    <span class="mx-1">|</span>
+                    <a style="text-decoration: none; color: grey;" href="">Help</a>
+                    <span class="mx-1">|</span>
+                    <a style="text-decoration: none; color: grey;" href="">FAQs</a>
+
+
+
+                </div>
+            </div>
+            <!-- Copyright -->
+
+            <!-- Copyright -->
+        </footer>
+        <div class="text-start text-white  p-3" style="background-color: black;">&copy;
+            Your Site Name.
+            <a style="text-decoration: none;" href="#">All Rights Reserved.</a>
+
+        </div>
+
+
+
+
+
+        <!-- Footer Part Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- bootstrap js link  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
